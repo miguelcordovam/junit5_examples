@@ -1,4 +1,4 @@
-package com.miguelcm.first;
+package com.miguelcm;
 
 import org.junit.gen5.api.Test;
 import org.junit.gen5.junit4.runner.JUnit5;
@@ -7,10 +7,10 @@ import org.junit.runner.RunWith;
 import static org.junit.gen5.api.Assertions.assertTrue;
 
 @RunWith(JUnit5.class)
-public class FirstTest {
+class FirstTest {
 
     @Test
-    public void testFirst() throws Exception {
+    void testFirst() throws Exception {
         System.out.println("test");
         assertTrue(true);
     }
