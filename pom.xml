@@ -35,7 +35,7 @@
         </dependency>
 
 
-        <!--For laccking of tool support, add this -->
+        <!--For lacking of tool support, add this -->
         <dependency>
             <groupId>org.junit</groupId>
             <artifactId>junit4-runner</artifactId>
